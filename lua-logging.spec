@@ -5,7 +5,7 @@
 
 Name:           lua-logging
 Version:        1.1.4
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        A simple API to use logging features in Lua
 
 Group:          Development/Other
@@ -13,8 +13,10 @@ License:        MIT
 URL:            http://www.keplerproject.org/lualogging/
 Source0:        http://luaforge.net/frs/download.php/2693/%{oname}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:  lua-devel >= %{luaver}
 Requires:       lua >= %{luaver}
+Requires:       lua-socket
+Requires:       lua-sql
+BuildArch:      noarch
 
 %description
 LuaLogging provides a simple API to use logging features
