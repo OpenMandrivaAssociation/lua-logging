@@ -5,7 +5,7 @@
 
 Name:           lua-logging
 Version:        1.1.4
-Release:        %mkrel 3
+Release:        %mkrel 4
 Summary:        A simple API to use logging features in Lua
 
 Group:          Development/Other
