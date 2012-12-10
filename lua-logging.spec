@@ -44,3 +44,24 @@ rm -rf $RPM_BUILD_ROOT
 %doc doc/us/*
 %doc README
 %{luapkgdir}/*
+
+
+%changelog
+* Wed Dec 08 2010 Rémy Clouard <shikamaru@mandriva.org> 1.1.4-4mdv2011.0
++ Revision: 616182
+- rebuild for the mass rebuild
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 1.1.4-3mdv2010.0
++ Revision: 439643
+- rebuild
+
+* Sun Dec 28 2008 Jérôme Soyer <saispo@mandriva.org> 1.1.4-2mdv2009.1
++ Revision: 320488
+- Add Requires
+
+* Sun Dec 28 2008 Jérôme Soyer <saispo@mandriva.org> 1.1.4-1mdv2009.1
++ Revision: 320487
+- Remove dot in Summary
+- import lua-logging
+
+
