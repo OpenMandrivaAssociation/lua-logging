@@ -4,14 +4,14 @@
 %define oname lualogging
 
 Name:           lua-logging
-Version:        1.1.4
-Release:        5
+Version:        1.3.0
+Release:        1
 Summary:        A simple API to use logging features in Lua
 
 Group:          Development/Other
 License:        MIT
 URL:            http://www.keplerproject.org/lualogging/
-Source0:        http://luaforge.net/frs/download.php/2693/%{oname}-%{version}.tar.gz
+Source0:        https://github.com/Neopallium/lualogging/archive/v%{version}/%{oname}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:       lua >= %{luaver}
 Requires:       lua-socket
