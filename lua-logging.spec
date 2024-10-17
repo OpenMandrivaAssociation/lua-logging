@@ -10,7 +10,7 @@ Summary:        A simple API to use logging features in Lua
 
 Group:          Development/Other
 License:        MIT
-URL:            http://www.keplerproject.org/lualogging/
+URL:            https://www.keplerproject.org/lualogging/
 Source0:        https://github.com/Neopallium/lualogging/archive/v%{version}/%{oname}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:       lua >= %{luaver}
