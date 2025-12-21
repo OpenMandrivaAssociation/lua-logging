@@ -18,6 +18,7 @@ Requires:       lua-socket
 Requires:       lua-sql
 BuildArch:      noarch
 
+BuildRequires:	make
 %description
 LuaLogging provides a simple API to use logging features
 in Lua. Its design was based on log4j. LuaLogging currently
